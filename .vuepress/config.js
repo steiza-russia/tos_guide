@@ -22,7 +22,7 @@ export default {
         {
           text: 'Инструкции',
           children: [
-            '/docs/',
+            // '/docs/',
             '/docs/Как добавить клиента в систему'
           ]
         }
