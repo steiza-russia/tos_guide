@@ -9,6 +9,9 @@ export default {
   description: 'Инструкции по работе с системой Steiza',
 
   theme: defaultTheme({
+    colorMode: 'light',
+    colorModeSwitch: true,
+    
     navbar: [
       { text: 'Главная', link: '/' },
       { text: 'Инструкции', link: '/docs/' }
