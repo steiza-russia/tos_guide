@@ -1,49 +1,31 @@
-import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
 
-export default defineUserConfig({
-  bundler: viteBundler(),
-  
-  base: '/steiza/',
+export default {
+  base: '/tos_guide/',
   
   lang: 'ru-RU',
   title: 'Steiza',
-  description: 'Инструкции по работе с системой',
+  description: 'Инструкции по работе с системой Steiza',
 
   theme: defaultTheme({
-    logo: null,
-    
-    colorMode: 'light',
-    colorModeSwitch: true,
-    
     navbar: [
-      {
-        text: 'Главная',
-        link: '/',
-      },
-      {
-        text: 'Инструкции',
-        link: '/docs/',
-      },
+      { text: 'Главная', link: '/' },
+      { text: 'Инструкции', link: '/docs/' }
     ],
-
+    
     sidebar: {
       '/docs/': [
         {
           text: 'Инструкции',
-          collapsible: false,
           children: [
-            '/docs/Как добавить клиента в систему_',
-          ],
-        },
-      ],
-    },
-
-    editLink: false,
-    lastUpdated: true,
-    lastUpdatedText: 'Обновлено',
-    contributors: false,
+            '/docs/README.md',
+            '/docs/Как добавить клиента в систему?.md'
+          ]
+        }
+      ]
+    }
   }),
-})
 
+  bundler: viteBundler()
+}
