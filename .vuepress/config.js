@@ -19,12 +19,14 @@ export default {
         {
           text: 'Инструкции',
           children: [
-            '/docs/README.md',
-            '/docs/Как добавить клиента в систему?.md'
+            '/docs/',
+            '/docs/Как добавить клиента в систему'
           ]
         }
       ]
-    }
+    },
+    
+    sidebarDepth: 2
   }),
 
   bundler: viteBundler()
