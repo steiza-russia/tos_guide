@@ -10,7 +10,7 @@ export default {
 
   theme: defaultTheme({
     colorMode: 'light',
-    colorModeSwitch: true,
+    colorModeSwitch: false,
     
     navbar: [
       { text: 'Главная', link: '/' },
@@ -22,8 +22,9 @@ export default {
         {
           text: 'Инструкции',
           children: [
-            // '/docs/',
-            '/docs/Как добавить клиента в систему'
+            '/docs/Как добавить клиента в систему',
+            '/docs/Как создать заявку на прием',
+            '/docs/Как создать безномерную заявку на выдачу',
           ]
         }
       ]
