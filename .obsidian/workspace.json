@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "9a27d0c399eb5079",
+    "type": "split",
+    "children": [
+      {
+        "id": "a41ab04af47d6ff4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7b16ca27325b537",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Как выдать контейнер со страницы пропусков.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Как выдать контейнер со страницы пропусков"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bcb3e8a73b34185b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb548ce944f861ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d2caf655f62e2e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "40e0b5e675797392",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e92fbd5ddfe14461",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "89e809c9a530fdf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cf35d4b7bedd8ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "828a0017ab8dc7ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Как выдать контейнер со страницы пропусков.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Как выдать контейнер со страницы пропусков"
+            }
+          },
+          {
+            "id": "fc4a973b2b2d46b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Как выдать контейнер со страницы пропусков.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Как выдать контейнер со страницы пропусков"
+            }
+          },
+          {
+            "id": "a2c41e37547df678",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2e1ec7f1f55df72a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Как выдать контейнер со страницы пропусков.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Как выдать контейнер со страницы пропусков"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d7b16ca27325b537",
+  "lastOpenFiles": [
+    "docs/Как отклонить ремонт.md",
+    "docs/Как оценить ремонтные работы copy.md",
+    "docs/Как оценить ремонтные работы.md",
+    "node_modules/jspdf/types/index.d.ts",
+    "node_modules/jspdf/types",
+    "node_modules/jspdf/README.md",
+    "node_modules/html2pdf.js/type.d.ts",
+    "node_modules/html2pdf.js/README.md",
+    "node_modules/jspdf/package.json",
+    "node_modules/canvg/README.md",
+    "node_modules/html2pdf.js/package.json",
+    "node_modules/canvg/package.json",
+    "node_modules/@types/raf/package.json",
+    "node_modules/@types/raf/index.d.ts",
+    "node_modules/@types/raf/README.md",
+    "node_modules/@types/raf/LICENSE",
+    "node_modules/utrie/rollup.config.ts",
+    "node_modules/utrie/CHANGELOG.md",
+    "node_modules/text-segmentation/README.md",
+    "node_modules/text-segmentation/CHANGELOG.md",
+    "node_modules/rgbcolor/LICENSE.md",
+    "node_modules/rgbcolor/FEEL-FREE.md",
+    "node_modules/rgbcolor/README.md",
+    "node_modules/html2canvas/README.md",
+    "node_modules/html2canvas/CHANGELOG.md",
+    "node_modules/pako/README.md",
+    "node_modules/css-line-break/README.md",
+    "node_modules/css-line-break/CHANGELOG.md",
+    "node_modules/dompurify/README.md",
+    "node_modules/core-js/stage/README.md",
+    "node_modules/core-js/README.md",
+    "node_modules/core-js/internals/README.md",
+    "node_modules/@types/pako/README.md",
+    "node_modules/svg-pathdata/README.md",
+    "node_modules/svg-pathdata/CHANGELOG.md",
+    "node_modules/stackblur-canvas/README.md"
+  ]
+}
