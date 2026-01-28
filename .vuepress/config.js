@@ -40,6 +40,12 @@ export default {
               ]
             },
             {
+              text: 'Продажа контейнеров',
+              children: [
+                '/docs/sell_module/Как сформировать КП',
+              ]
+            },
+            {
               text: 'Ремонт',
               children: [
                 '/docs/Как оценить ремонтные работы',
