@@ -14,10 +14,21 @@ export default {
     
     navbar: [
       { text: 'Главная', link: '/' },
-      { text: 'Инструкции', link: '/docs/' }
+      { text: 'Для клиентов', link: '/docs/clients/', activeMatch: '^/docs/clients/' },
+      { text: 'Для сотрудников', link: '/docs/', activeMatch: '^/docs/(?!clients/)' }
     ],
     
     sidebar: {
+      '/docs/clients/': [
+        {
+          text: 'Для клиентов',
+          children: [
+            '/docs/clients/Как авторизоваться в системе',
+            '/docs/clients/Как создать заявку на прием',
+            '/docs/clients/Как создать безномерную заявку на выдачу',
+          ]
+        }
+      ],
       '/docs/': [
         {
           text: 'Инструкции',

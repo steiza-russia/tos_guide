@@ -4,7 +4,10 @@ title: Главная
 heroText: Инструкции Steiza
 tagline: База знаний по работе с системой управления контейнерным терминалом
 actions:
-  - text: Начать работу
+  - text: Для клиентов
+    link: /docs/clients/
+    type: primary
+  - text: Для сотрудников
     link: /docs/
     type: primary
 features:
