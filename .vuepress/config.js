@@ -35,6 +35,12 @@ export default {
           children: [
             '/docs/Как добавить клиента в систему',
             {
+              text: 'Сотрудники',
+              children: [
+                '/docs/empls_page/Управление сотрудниками',
+              ]
+            },
+            {
               text: 'Заявки',
               children: [
                 '/docs/Как создать заявку на прием',
